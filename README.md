@@ -12,9 +12,9 @@
 > ### 更换模型
 > #### train.py脚本下
 > ```
-from net import *
-net = deeplabv3_resnet50(num_classes=19)
-```
+> from net import *
+> net = deeplabv3_resnet50(num_classes=19)
+> ```
 > ### 训练
 > #### train.py脚本下
 >  `python3 train.py --num_classes=18 --data-path=../data/正位语义分割s4 --epochs=300`
