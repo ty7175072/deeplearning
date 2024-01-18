@@ -1,4 +1,4 @@
-# deeplearning
+# 论文代码
 
 ## 项目结构
 * net 存放所有网络模型结构
@@ -7,3 +7,12 @@
 - train.py 训练脚本
 - predict.py 预测脚本
 - predict_more.py 预测脚本
+
+## 操作
+### 更换模型
+> train.py脚本下
+
+'''
+from net import *
+net = deeplabv3_resnet50(num_classes=19)
+'''
