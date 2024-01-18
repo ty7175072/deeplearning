@@ -18,3 +18,8 @@
 > ### 训练
 > #### train.py脚本下
 >  `python3 train.py --num_classes=18 --data-path=../data/正位语义分割s4 --epochs=300`
+> ### 预测
+> #### predict_more.py脚本下
+>  `python3 predict_more.py`
+
+
