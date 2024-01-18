@@ -12,7 +12,7 @@
 ### 更换模型
 > train.py脚本下
 
-'''
+```
 from net import *
 net = deeplabv3_resnet50(num_classes=19)
-'''
+```
